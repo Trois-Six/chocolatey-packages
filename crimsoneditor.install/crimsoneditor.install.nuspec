@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>crimsoneditor.install</id>
+    <version>3.72.286</version>
+	<title>Crimson Editor (Install)</title>
+    <authors>Ingyu Kang</authors>
+    <owners>Pierre Erraud</owners>
+	<projectUrl>http://www.crimsoneditor.com/</projectUrl>
+	<iconUrl>http://www.crimsoneditor.com/images/icon.gif</iconUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This program is not only fast in loading time, but also small in size (so small that it can be copied in one floppy disk).
+
+While it can serve as a good replacement for Notepad, it also offers many powerful features for programming languages such as HTML, C/C++, Perl and Java.
+
+Syntax Highlighting for HTML, C/C++, Perl, Java, Matlab and LaTeX. Also, it can be extended for other programming languages based on custom syntax files.
+
+Other features include undo/redo, user tools, macros, spell checker and more.</description>
+    <summary>Professional source code editor for Windows</summary>
+    <tags>crimson editor admin</tags>
+	<packageSourceUrl>https://github.com/stupidsing/CrimsonEditor</packageSourceUrl>
+    <projectSourceUrl>https://github.com/stupidsing/CrimsonEditor</projectSourceUrl>
+    <docsUrl>http://crimsoneditor.com/english/docs/index.html</docsUrl>   
+    <releaseNotes>http://www.crimsoneditor.com/english/whatsnew.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
