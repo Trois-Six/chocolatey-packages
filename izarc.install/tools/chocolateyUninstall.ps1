@@ -7,7 +7,7 @@ $machine_key6432 = "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\
 $packageName = 'izarc'
 $softwareName = 'IZArc*'
 $installerType = 'EXE' 
-$silentArgs = '/verysilent'
+$silentArgs = '/SP /VERYSILENT /NORESTART /NOCANDY'
 $validExitCodes = @(0)
 
 $key = Get-ItemProperty -Path @($local_key, $machine_key, $local_key6432, $machine_key6432) -ErrorAction SilentlyContinue | ? { $_.DisplayName -like "$softwareName" }
